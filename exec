@@ -21,7 +21,7 @@ int main()
 	set<string>counter;
 	while (!str.eof())
 	{
-		getline(str, temp = "");
+		getline(str, temp = ""s);
 
 		if (temp != "")
 		{
